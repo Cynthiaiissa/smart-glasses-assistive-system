@@ -8,13 +8,13 @@ The system uses a Raspberry Pi camera, YOLO object detection, text-to-speech fee
 ## Project Images
 
 ### Location showing
-![Smart Glasses Prototype](images/image1.jpg)
+![Location Showing](images/image1.jpg)
 
 ### Hardware Setup
 ![Hardware Setup](images/image2.jpg)
 
 ### Prototype
-![Project Demonstration](images/image3.jpg)
+![Project Prototype](images/image3.jpg)
 
 ## Features
 
