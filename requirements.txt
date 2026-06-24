@@ -1,0 +1,7 @@
+ultralytics
+opencv-python
+pyttsx3
+requests
+pyserial
+tensorflow
+RPi.GPIO
