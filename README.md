@@ -77,7 +77,7 @@ python smart_glasses_main.py
 
 * `smart_glasses_main.py`: main prototype code used for object detection, audio guidance, GPS reading, emergency button control, and Telegram location sharing
 * `requirements.txt`: required Python libraries
-* `.gitignore`: files ignored by Git
+* `.gitignore`: files ignored by Git 
 * `images/`: project images and prototype photos
 
 ## Team Members
