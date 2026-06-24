@@ -5,12 +5,23 @@
 Smart Glasses is an academic assistive technology prototype designed to help visually impaired people detect obstacles and receive real-time audio guidance.
 The system uses a Raspberry Pi camera, YOLO object detection, text-to-speech feedback, an emergency push button, GPS module, and Telegram location sharing to improve user safety and navigation.
 
+## Project Images
+
+### Location showing
+![Smart Glasses Prototype](images/image1.jpg)
+
+### Hardware Setup
+![Hardware Setup](images/image2.jpg)
+
+### Prototype
+![Project Demonstration](images/image3.jpg)
+
 ## Features
 
 * Real-time object detection using YOLO
 * Audio feedback for obstacle warnings
 * Direction-based guidance: left, right, and ahead
-* Emergency push button
+* Emergency push button for safety alerts
 * GPS location reading
 * Emergency location sharing through Telegram
 * Raspberry Pi camera integration
@@ -37,8 +48,8 @@ The system uses a Raspberry Pi camera, YOLO object detection, text-to-speech fee
 
 ## How It Works
 
-The camera captures live frames from the environment. YOLO detects objects in the frame, then the program checks whether the obstacle is on the left, right, or center. Based on the obstacle position and size, the system gives audio instructions such as moving left, moving right, or slowing down.
-
+The camera captures live frames from the environment. YOLO detects objects in each frame, then the program checks whether the obstacle is located on the left, right, or center of the image.
+Based on the obstacle position and size, the system gives audio instructions such as moving left, moving right, slowing down, or continuing straight carefully.
 When the emergency button is pressed, the system tries to read the GPS location and sends it through Telegram.
 
 ## How to Run
@@ -64,10 +75,10 @@ python smart_glasses_main.py
 
 ## Project Files
 
-* `smart_glasses_main.py`: main prototype code
-* `smart_glasses_threaded_experimental.py`: experimental threaded version designed to improve performance
+* `smart_glasses_main.py`: main prototype code used for object detection, audio guidance, GPS reading, emergency button control, and Telegram location sharing
 * `requirements.txt`: required Python libraries
 * `.gitignore`: files ignored by Git
+* `images/`: project images and prototype photos
 
 ## Team Members
 
@@ -76,9 +87,13 @@ python smart_glasses_main.py
 * Fawzi Rabah
 * Hala Al Tabech
 
+## Status
+
+This project was developed as an academic Raspberry Pi prototype. Full operation requires the Raspberry Pi hardware, camera, GPS module, push button, and audio output to be connected.
 
 ## Note
 
-This is an academic prototype. Private credentials such as Telegram bot tokens and chat IDs were removed from the public version for security.
-The project is designed to run on Raspberry Pi hardware with the required camera, GPS module, button, and audio output connected.
+Private credentials such as Telegram bot tokens and chat IDs were removed from the public version for security.
+
+
 
