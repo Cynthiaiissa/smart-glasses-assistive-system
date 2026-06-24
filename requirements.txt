@@ -4,4 +4,4 @@ pyttsx3
 requests
 pyserial
 tensorflow
-RPi.GPIO
+RPi.GPIO 
