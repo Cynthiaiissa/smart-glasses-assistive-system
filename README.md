@@ -8,13 +8,13 @@ The system uses a Raspberry Pi camera, YOLO object detection, text-to-speech fee
 ## Project Images
 
 ### Location showing
-![Location Showing](images/image1.jpg)
+![Location Showing](https://raw.githubusercontent.com/Cynthiaiissa/smart-glasses-assistive-system/refs/heads/main/images/Image1.jpeg)
 
 ### Hardware Setup
-![Hardware Setup](images/image2.jpg)
+![Hardware Setup](https://raw.githubusercontent.com/Cynthiaiissa/smart-glasses-assistive-system/refs/heads/main/images/Image2.jpeg)
 
 ### Prototype
-![Project Prototype](images/image3.jpg)
+![Project Prototype](https://raw.githubusercontent.com/Cynthiaiissa/smart-glasses-assistive-system/refs/heads/main/images/Image3.jpeg)
 
 ## Features
 
